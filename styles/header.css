@@ -11,6 +11,7 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
+    position: relative;
 
 }
 .container{
@@ -27,6 +28,8 @@
 
 .lista-menu{
     display: none;
+    position: absolute;
+    top: 100%;
 }
 
 .container__botao:checked~ .lista-menu{
