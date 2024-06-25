@@ -21,6 +21,8 @@
 .container__imagem{
     padding: 1em;
 }
-
+.lista-menu__item{
+    list-style-type: none;
+}
 
 
